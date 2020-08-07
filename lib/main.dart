@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:issue_project/side_page.dart';
 import 'package:provider/provider.dart';
 
+import 'home_page.dart';
 import 'notifiers/side_state.dart';
 
 void main() {
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
           accentColor: Color(0xFF191F36),
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: SidePage(),
+        home: HomePage(title: 'Side view',),
       ),
     );
   }

@@ -62,13 +62,20 @@ class _SidePageState extends State<SidePage>
     });
 
     _animationController = new AnimationController(
-        duration: const Duration(milliseconds: 500), vsync: this);
+        duration: const Duration(milliseconds: 500), vsync: this)..addListener(() {
+
+    })..addStatusListener((status) {
+
+    });
 
     _animation = new IntTween(begin: 0, end: 10).animate(_animationController)
       ..addListener(() {
-        setState(() {});
+        setState(() {
+          debugPrint('update _animation');
+        });
       })
       ..addStatusListener((state) {
+        debugPrint('animation state : $state');
         if (state == AnimationStatus.completed) {
           _animationController.reset();
         }
@@ -170,14 +177,27 @@ class _SidePageState extends State<SidePage>
     return AnimatedBuilder(
       animation: _animation,
       builder: (BuildContext context, Widget child) {
-        int frame = Provider.of<SideState>(context).frame(_forward);
+        int frame =
+            Provider.of<SideState>(context, listen: false).frame(_forward);
         if (SideState.images.length > frame) {
           debugPrint('assets/images/side/side_$frame.jpg');
-          return Image.memory(
-            SideState.images[frame].buffer.asUint8List(),
+
+          return Container(
             width: width,
             height: width,
-            gaplessPlayback: true,
+            key: ValueKey('side_$frame'),
+//            decoration: BoxDecoration(
+//                color: Colors.purple,
+//                image: DecorationImage(
+//                    image: ImageUtils.getAssetImage('side/side_$frame',
+//                        format: ImageFormat.jpg),
+//                    fit: BoxFit.fill)),
+            child: Image.memory(
+              SideState.images[frame].buffer.asUint8List(),
+              width: width,
+              height: width,
+              gaplessPlayback: true,
+            ),
           );
         } else {
           debugPrint('err: assets/images/side/side_$frame.jpg');
@@ -188,5 +208,11 @@ class _SidePageState extends State<SidePage>
         }
       },
     );
+  }
+
+  @override
+  void didUpdateWidget(SidePage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    debugPrint('didUpdateWidget');
   }
 }
