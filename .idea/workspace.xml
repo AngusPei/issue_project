@@ -1,7 +1,322 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74def3b8-8526-441f-ba02-e19c37c3e5f7" name="Default Changelist" comment="" />
+    <list default="true" id="74def3b8-8526-441f-ba02-e19c37c3e5f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_1024x768_long.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_106.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_108.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_115.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_117.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_119.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_121.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_124.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_125.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_126.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_127.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_129.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_132.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_133.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_134.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_137.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_138.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_139.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_140.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_141.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_142.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_143.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_145.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_147.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_148.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_149.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_500x375_long.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_640x480_long.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_720x540_long.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_800x600_long.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_85.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_86.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_92.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_93.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_94.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_98.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/side/side_99.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_136.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_137.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_140.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_141.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_142.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_145.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_146.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_147.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/side/side_99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/notifiers/side_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/notifiers/side_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/side_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/side_page.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,11 +339,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/side" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/side" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/side" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -44,5 +364,59 @@
       <updated>1596825361015</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="176" key="#Console" timestamp="1596988639622">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="440" y="176" key="#Console/0.25.1680.978/-1920.-407.1920.1055@0.25.1680.978" timestamp="1596988639622" />
+    <state x="304" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597961685702">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="304" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-271.1920.1055/0.25.1680.978@0.25.1680.978" timestamp="1597961685702" />
+    <state x="653" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1596969594476">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="653" y="234" key="#com.intellij.ide.util.MemberChooser/0.25.1680.978/-1920.-407.1920.1055@0.25.1680.978" timestamp="1596969594476" />
+    <state x="100" y="125" width="1480" height="778" key="DiffContextDialog" timestamp="1596962300480">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="100" y="125" width="1480" height="778" key="DiffContextDialog/0.25.1680.978/-1920.-407.1920.1055@0.25.1680.978" timestamp="1596962300480" />
+    <state width="1638" height="186" key="GridCell.Tab.0.bottom" timestamp="1597962019101">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state width="1638" height="186" key="GridCell.Tab.0.bottom/0.25.1680.978/-1920.-407.1920.1055@0.25.1680.978" timestamp="1597316893154" />
+    <state width="1638" height="186" key="GridCell.Tab.0.bottom/0.25.1680.979/-1920.-407.1920.1055@0.25.1680.979" timestamp="1597052731744" />
+    <state width="1638" height="186" key="GridCell.Tab.0.bottom/1680.-271.1920.1055/0.25.1680.978@0.25.1680.978" timestamp="1597962019101" />
+    <state width="1638" height="186" key="GridCell.Tab.0.center" timestamp="1597962019100">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state width="1638" height="186" key="GridCell.Tab.0.center/0.25.1680.978/-1920.-407.1920.1055@0.25.1680.978" timestamp="1597316893154" />
+    <state width="1638" height="186" key="GridCell.Tab.0.center/0.25.1680.979/-1920.-407.1920.1055@0.25.1680.979" timestamp="1597052731743" />
+    <state width="1638" height="186" key="GridCell.Tab.0.center/1680.-271.1920.1055/0.25.1680.978@0.25.1680.978" timestamp="1597962019100" />
+    <state width="1638" height="186" key="GridCell.Tab.0.left" timestamp="1597962019100">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state width="1638" height="186" key="GridCell.Tab.0.left/0.25.1680.978/-1920.-407.1920.1055@0.25.1680.978" timestamp="1597316893153" />
+    <state width="1638" height="186" key="GridCell.Tab.0.left/0.25.1680.979/-1920.-407.1920.1055@0.25.1680.979" timestamp="1597052731742" />
+    <state width="1638" height="186" key="GridCell.Tab.0.left/1680.-271.1920.1055/0.25.1680.978@0.25.1680.978" timestamp="1597962019100" />
+    <state width="1638" height="186" key="GridCell.Tab.0.right" timestamp="1597962019101">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state width="1638" height="186" key="GridCell.Tab.0.right/0.25.1680.978/-1920.-407.1920.1055@0.25.1680.978" timestamp="1597316893154" />
+    <state width="1638" height="186" key="GridCell.Tab.0.right/0.25.1680.979/-1920.-407.1920.1055@0.25.1680.979" timestamp="1597052731743" />
+    <state width="1638" height="186" key="GridCell.Tab.0.right/1680.-271.1920.1055/0.25.1680.978@0.25.1680.978" timestamp="1597962019101" />
+    <state x="619" y="144" key="RollbackChangesDialog" timestamp="1597961525812">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="619" y="144" key="RollbackChangesDialog/1680.-271.1920.1055/0.25.1680.978@0.25.1680.978" timestamp="1597961525812" />
+    <state x="492" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1597293310917">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="492" y="343" key="com.intellij.ide.util.TipDialog/0.25.1680.978/-1920.-407.1920.1055@0.25.1680.978" timestamp="1597293310917" />
+    <state x="483" y="255" width="713" height="518" key="find.popup" timestamp="1597962003049">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="483" y="255" width="713" height="518" key="find.popup/1680.-271.1920.1055/0.25.1680.978@0.25.1680.978" timestamp="1597962003049" />
   </component>
 </project>

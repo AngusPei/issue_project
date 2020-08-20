@@ -1,6 +1,8 @@
 import 'dart:async';
+import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import 'notifiers/side_state.dart';
@@ -31,25 +33,65 @@ class ImageUtils {
 }
 
 class _SidePageState extends State<SidePage>
-    with SingleTickerProviderStateMixin {
+    with SingleTickerProviderStateMixin, AutomaticKeepAliveClientMixin {
   Animation<int> _animation;
   AnimationController _animationController;
 
   int _forward = 0;
+  List<MemoryImage> images = [];
+
+  double _imageScale = 0.8;
+
+  bool _isScale = false;
 
   Future<void> _preCacheImage(context) async {
     for (var i = 0; i < 150 + 1; i++) {
       try {
         await precacheImage(
-            ImageUtils.getAssetImage('side/side_$i', format: ImageFormat.jpg),
+            ImageUtils.getAssetImage('side/side_$i', format: ImageFormat.png),
             context);
-        debugPrint('assets/images/side/side_$i.jpg');
+        debugPrint('assets/images/side/side_$i.png');
       } catch (e) {
         debugPrint(e.toString());
       }
     }
 
-    await Provider.of<SideState>(context, listen: false).loadImages();
+    await loadImages();
+  }
+
+  Future<void> _preCacheImage2(context) async {
+    for (var i = 0; i < 150 + 1; i++) {
+      try {
+        await precacheImage(
+            ImageUtils.getAssetImage('side/side_640x480_long',
+                format: ImageFormat.gif),
+            context);
+        await precacheImage(
+            ImageUtils.getAssetImage('side/side_720x540_long',
+                format: ImageFormat.gif),
+            context);
+        await precacheImage(
+            ImageUtils.getAssetImage('side/side_1024x768_long',
+                format: ImageFormat.gif),
+            context);
+        await precacheImage(
+            ImageUtils.getAssetImage('side/side_500x375_long',
+                format: ImageFormat.gif),
+            context);
+        await precacheImage(
+            ImageUtils.getAssetImage('side/side_800x600_long',
+                format: ImageFormat.gif),
+            context);
+        await precacheImage(
+            ImageUtils.getAssetImage('side/side_800x600_long_png',
+                format: ImageFormat.gif),
+            context);
+      } catch (e) {
+        debugPrint(e.toString());
+      }
+    }
+
+//    await loadImages();
   }
 
   @override
@@ -62,14 +104,15 @@ class _SidePageState extends State<SidePage>
     });
 
     _animationController = new AnimationController(
-        duration: const Duration(milliseconds: 500), vsync: this);
+        duration: const Duration(milliseconds: 400), vsync: this);
 
-    _animation = new IntTween(begin: 0, end: 10).animate(_animationController)
+    _animation = new IntTween(begin: 0, end: 4).animate(_animationController)
       ..addListener(() {
         setState(() {});
       })
       ..addStatusListener((state) {
-        if (state == AnimationStatus.completed) {
+        if (state == AnimationStatus.completed ||
+            state == AnimationStatus.dismissed) {
           _animationController.reset();
         }
       });
@@ -84,6 +127,10 @@ class _SidePageState extends State<SidePage>
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
+    var size = MediaQuery.of(context).size;
+    final width = size.height > size.width ? size.width : size.height;
+
     return Scaffold(
       backgroundColor: Theme.of(context).primaryColor,
       appBar: AppBar(
@@ -94,35 +141,29 @@ class _SidePageState extends State<SidePage>
       floatingActionButton: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          FloatingActionButton(
+          IconButton(
             onPressed: () {
-              _forward = -2;
+              _forward = -1;
               _animationController.forward();
             },
-            heroTag: "right_rotation",
-            child: Container(
-              child: Image.asset(
-                'assets/images/right_rotation.png',
-                width: 40,
-                height: 40,
-              ),
+            iconSize: 40,
+            icon: Image.asset(
+              'assets/images/right_rotation.png',
+              width: 40,
+              height: 40,
             ),
           ),
           Padding(
             padding: const EdgeInsets.only(left: 16.0),
-            child: FloatingActionButton(
-              heroTag: "left_rotation",
+            child: IconButton(
               onPressed: () {
-                _forward = 2;
+                _forward = 1;
                 _animationController.forward();
               },
-              child: Container(
-                child: Image.asset(
-                  'assets/images/left_rotation.png',
-                  width: 40,
-                  height: 40,
-                ),
+              icon: Image.asset(
+                'assets/images/left_rotation.png',
               ),
+              iconSize: 40,
             ),
           ),
         ],
@@ -137,56 +178,185 @@ class _SidePageState extends State<SidePage>
     return Container(
       child: GestureDetector(
         behavior: HitTestBehavior.translucent,
-
-        /// 此处需要细化
-        onPanUpdate: (DragUpdateDetails details) {
-          if (details.delta == Offset.zero) return;
+        onDoubleTap: () {
+          if (_imageScale != 0.8) {
+            _imageScale = 0.8;
+            setState(() {});
+          } else if (_imageScale != 1.5) {
+            _imageScale = 1.5;
+            setState(() {});
+          }
+        },
+        onScaleStart: (ScaleStartDetails details) {
+          _isScale = true;
+        },
+        onScaleEnd: (ScaleEndDetails details) {
+          _isScale = false;
+        },
+        onScaleUpdate: (ScaleUpdateDetails details) {
+//          if(details.scale == 1)  return;
+          if (details.scale < 1 && _imageScale != 0.5) {
+            _imageScale = 0.5;
+            debugPrint('_imageScae=====$_imageScale');
+            setState(() {});
+          } else if (details.scale > 1 && _imageScale != 1.5) {
+            _imageScale = 1.5;
+            debugPrint('_imageScae=====$_imageScale');
+            setState(() {});
+          }
+        },
+        onHorizontalDragUpdate: (DragUpdateDetails details) {
+          if (details.delta == Offset.zero || _isScale) return;
 
           int forward = details.delta.dx ~/ 10;
 
-          if (forward.abs() < 4) {
-            forward = (details.delta.dx < 0 ? 4 : -4);
-          } else if (forward.abs() < 15) {
-            forward = (details.delta.dx < 0 ? 6 : -6);
+          if (forward.abs() < 3) {
+            forward = (details.delta.dx < 0 ? 1 : -1);
+          } else if (forward.abs() < 6) {
+            forward = (details.delta.dx < 0 ? 2 : -2);
           } else {
-            forward = (details.delta.dx < 0 ? 8 : -8);
+            forward = (details.delta.dx < 0 ? 3 : -3);
           }
-
+          debugPrint('forward:$forward');
           _forward = forward;
           _animationController.forward();
         },
         child: Container(
-          width: double.infinity,
-          height: double.infinity,
+//          width: double.infinity,
+//          height: double.infinity,
           child: Center(
-            child: _buildPlayAnimation(width),
+            child: _isScale
+                ? Container(
+                    width: width * _imageScale,
+                    height: width * _imageScale,
+                    child: Image(
+                      image: images[
+                          Provider.of<SideState>(context, listen: false)
+                              .currentIndex],
+                      gaplessPlayback: true,
+                    ),
+                  )
+                : _buildPlayAnimation(width),
           ),
         ), //        child: Container(
       ),
     );
   }
 
+//  Future<Uint8List> _updateFrame(frame) {
+//    return new Future<Uint8List>(() {
+//      return images[frame].buffer.asUint8List();
+//    });
+//  }
+
   _buildPlayAnimation(double width) {
     return AnimatedBuilder(
       animation: _animation,
       builder: (BuildContext context, Widget child) {
-        int frame = Provider.of<SideState>(context).frame(_forward);
-        if (SideState.images.length > frame) {
-          debugPrint('assets/images/side/side_$frame.jpg');
-          return Image.memory(
-            SideState.images[frame].buffer.asUint8List(),
-            width: width,
-            height: width,
-            gaplessPlayback: true,
+        Provider.of<SideState>(context, listen: false).currentIndex = _forward;
+        int frame = Provider.of<SideState>(context, listen: false).currentIndex;
+
+        if (images.length > frame) {
+          debugPrint('assets/images/side/side_$frame.png');
+          return Container(
+            width: width * _imageScale,
+            height: width * _imageScale,
+            child: Image(
+              image: images[frame],
+              gaplessPlayback: true,
+            ),
           );
+//          return Image.memory(
+//            images[frame].buffer.asUint8List(),
+////            key: ValueKey('frame_$frame'),
+//            width: width,
+//            height: width,
+//            gaplessPlayback: true,
+//          );
         } else {
-          debugPrint('err: assets/images/side/side_$frame.jpg');
+          debugPrint('err: assets/images/side/side_$frame.png');
           return Container(
             width: width,
             height: width,
           );
         }
       },
+    );
+  }
+
+  @override
+  bool get wantKeepAlive => false;
+
+  @override
+  void didUpdateWidget(SidePage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+
+    debugPrint('didUpdateWidget');
+  }
+
+  /// 初始化所有的动画图片
+  loadImages() async {
+    images.clear();
+
+    /// 预缓存侧轴图片
+    for (var i = 0; i < 150 + 1; i++) {
+      ByteData data = await rootBundle.load('assets/images/side/side_$i.png');
+//      images.add(data);
+      images.add(MemoryImage(data.buffer.asUint8List(), scale: 0.5));
+
+      debugPrint('assets/images/side/side_$i.png');
+    }
+  }
+
+  _buildPlayGif(double width) {
+    return Image.asset(
+      'assets/images/side/side_1024x768_long.gif',
+      width: width,
+      height: width,
+//      fit: BoxFit.fitWidth,
+    );
+  }
+}
+
+class ImageContainer extends StatefulWidget {
+  final MemoryImage image;
+
+  final double width;
+
+  const ImageContainer({Key key, @required this.image, @required this.width})
+      : super(key: key);
+
+  @override
+  _ImageContainerState createState() => _ImageContainerState();
+}
+
+class _ImageContainerState extends State<ImageContainer> {
+  MemoryImage image;
+
+  @override
+  void initState() {
+    super.initState();
+    image = widget.image;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Image(
+        image: image,
+        width: widget.width,
+        height: widget.width,
+        gaplessPlayback: true,
+        errorBuilder: (
+          BuildContext context,
+          Object error,
+          StackTrace stackTrace,
+        ) {
+          debugPrint('image error:${error.toString()}');
+
+          return Text('error:${error.toString()}');
+        },
+      ),
     );
   }
 }
